@@ -1,4 +1,4 @@
-package class_sample03;
+package class_samples.class_sample03;
 
 public class Main {
     public static void main(String[] args) {
