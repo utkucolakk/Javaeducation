@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b62efbb-499f-4c5e-93a8-f68b36991099" name="Changes" comment="" />
+    <list default="true" id="be73fec0-b4f2-4c58-9d07-2f9a0240323c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,105 +15,33 @@
     </option>
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 8
+  &quot;associatedIndex&quot;: 0
 }</component>
-  <component name="ProjectId" id="2gEYM7egQhcrI1UWVW9JgYhlYde" />
+  <component name="ProjectId" id="2gFSIoWVJyXMAgQL2vSYWGJLA4U" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArrayListSample01.executor": "Run",
-    "Application.ArrayListSample02.executor": "Run",
-    "Application.ArrayListSample03.executor": "Run",
-    "Application.DequeSample01.executor": "Run",
-    "Application.HashMapSample01.executor": "Run",
-    "Application.HashMapSample02.executor": "Run",
-    "Application.HashMapSample03.executor": "Run",
-    "Application.HashMapSample04.executor": "Run",
-    "Application.LinkedListSample01.executor": "Run",
-    "Application.MapOverview.executor": "Run",
-    "Application.QueueSample01.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/utii/Documents/GitHub/Javaeducation/Collections/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArrayListSample01.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/utii/Documents/GitHub/Javaeducation/Collections/src/Main.java&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.HashMapSample04">
-    <configuration name="HashMapSample01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="map_sample.HashMapSample01" />
+}</component>
+  <component name="RunManager">
+    <configuration name="ArrayListSample01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayListSample01" />
       <module name="Collections" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="map_sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HashMapSample02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="map_sample.HashMapSample02" />
-      <module name="Collections" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="map_sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HashMapSample03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="map_sample.HashMapSample03" />
-      <module name="Collections" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="map_sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HashMapSample04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="map_sample.HashMapSample04" />
-      <module name="Collections" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="map_sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MapOverview" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="map_sample.MapOverview" />
-      <module name="Collections" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="map_sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HashMapSample04" />
-        <item itemvalue="Application.HashMapSample03" />
-        <item itemvalue="Application.HashMapSample02" />
-        <item itemvalue="Application.HashMapSample01" />
-        <item itemvalue="Application.MapOverview" />
+        <item itemvalue="Application.ArrayListSample01" />
       </list>
     </recent_temporary>
   </component>
@@ -130,11 +55,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3b62efbb-499f-4c5e-93a8-f68b36991099" name="Changes" comment="" />
-      <created>1715264154718</created>
+      <changelist id="be73fec0-b4f2-4c58-9d07-2f9a0240323c" name="Changes" comment="" />
+      <created>1715291757323</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1715264154718</updated>
+      <updated>1715291757323</updated>
     </task>
     <servers />
   </component>
