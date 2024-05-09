@@ -28,6 +28,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ArrayListSample01.executor": "Run",
+    "Application.HashMapSample01.executor": "Run",
+    "Application.list_sample.arraylist_sample01.ArrayListSample01.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -35,8 +37,8 @@
     "last_opened_file_path": "C:/Users/Utku/Documents/GitHub/Javaeducation/Collections",
     "onboarding.tips.debug.path": "C:/Users/utii/Documents/GitHub/Javaeducation/Collections/src/Main.java",
     "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RunManager" selected="Application.list_sample.arraylist_sample01.ArrayListSample01">
