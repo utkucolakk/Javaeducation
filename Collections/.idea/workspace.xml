@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="be73fec0-b4f2-4c58-9d07-2f9a0240323c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,26 +25,103 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ArrayListSample01.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/utii/Documents/GitHub/Javaeducation/Collections/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArrayListSample01.executor": "Run",
+    "Application.TreeMapSample01.executor": "Run",
+    "Application.TreeMapSample02.executor": "Run",
+    "Application.TreeMapSample03.executor": "Run",
+    "Application.TreeMapSample04.executor": "Run",
+    "Application.TreeMapSample05.executor": "Run",
+    "Application.TreeMapSample06.executor": "Run",
+    "Application.TreeMapSample07.executor": "Run",
+    "Application.TreeMapSample08.executor": "Run",
+    "Application.TreeMapSample09.executor": "Run",
+    "Application.TreeMapSample10.executor": "Run",
+    "Application.TreeMapSample11.executor": "Run",
+    "Application.TreeMapSample12.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/utii/Documents/GitHub/Javaeducation/Collections/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="ArrayListSample01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayListSample01" />
+}]]></component>
+  <component name="RunManager" selected="Application.TreeMapSample12">
+    <configuration name="TreeMapSample08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree_map_sample.TreeMapSample08" />
       <module name="Collections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree_map_sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeMapSample09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree_map_sample.TreeMapSample09" />
+      <module name="Collections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree_map_sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeMapSample10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree_map_sample.TreeMapSample10" />
+      <module name="Collections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree_map_sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeMapSample11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree_map_sample.TreeMapSample11" />
+      <module name="Collections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree_map_sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeMapSample12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree_map_sample.TreeMapSample12" />
+      <module name="Collections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree_map_sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrayListSample01" />
+        <item itemvalue="Application.TreeMapSample12" />
+        <item itemvalue="Application.TreeMapSample11" />
+        <item itemvalue="Application.TreeMapSample10" />
+        <item itemvalue="Application.TreeMapSample09" />
+        <item itemvalue="Application.TreeMapSample08" />
       </list>
     </recent_temporary>
   </component>
