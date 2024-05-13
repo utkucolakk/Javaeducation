@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be73fec0-b4f2-4c58-9d07-2f9a0240323c" name="Changes" comment="" />
+    <list default="true" id="3200f296-e84a-4573-8e90-80cd1ef52d69" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,64 +20,66 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
-}</component>
-  <component name="ProjectId" id="2gFSIoWVJyXMAgQL2vSYWGJLA4U" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2gPC0z8aQ4tZIlJ4aDJ58AKvu1c" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.ArrayListSample01.executor": "Run",
-<<<<<<< HEAD
-    "Application.TreeMapSample01.executor": "Run",
-    "Application.TreeMapSample02.executor": "Run",
-    "Application.TreeMapSample03.executor": "Run",
-    "Application.TreeMapSample04.executor": "Run",
-    "Application.TreeMapSample05.executor": "Run",
-    "Application.TreeMapSample06.executor": "Run",
-    "Application.TreeMapSample07.executor": "Run",
-    "Application.TreeMapSample08.executor": "Run",
-    "Application.TreeMapSample09.executor": "Run",
-    "Application.TreeMapSample10.executor": "Run",
-    "Application.TreeMapSample11.executor": "Run",
-    "Application.TreeMapSample12.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/utii/Documents/GitHub/Javaeducation/Collections/src/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
-  }
-}]]></component>
-  <component name="RunManager" selected="Application.TreeMapSample12">
-    <configuration name="TreeMapSample08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree_map_sample.TreeMapSample08" />
-=======
-    "Application.HashMapSample01.executor": "Run",
-    "Application.list_sample.arraylist_sample01.ArrayListSample01.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "Application.EnumMapSample01.executor": "Run",
+    "Application.EnumMapSample02.executor": "Run",
+    "Application.EnumSetSample01.executor": "Run",
+    "Application.EnumSetSample02.executor": "Run",
+    "Application.EnumSetSample03.executor": "Run",
+    "Application.EnumSetSample04.executor": "Run",
+    "Application.EnumSetSample05.executor": "Run",
+    "Application.HashMapEnumSample.executor": "Run",
+    "Application.HashSetSample01.executor": "Run",
+    "Application.HashSetSample02.executor": "Run",
+    "Application.HashSetSample03.executor": "Run",
+    "Application.HashSetSample04.executor": "Run",
+    "Application.HashSetSample05.executor": "Run",
+    "Application.HashSetSample06.executor": "Run",
+    "Application.HashSetSample07.executor": "Run",
+    "Application.LinkedHashMapSample01.executor": "Run",
+    "Application.LinkedHashMapSample02.executor": "Run",
+    "Application.LinkedHashSetSample03.executor": "Run",
+    "Application.SetOverview.executor": "Run",
+    "Application.TreeSetSample01.executor": "Run",
+    "Application.TreeSetSample02.executor": "Run",
+    "Application.TreeSetSample04.executor": "Run",
+    "Application.TreeSetSample05.executor": "Run",
+    "Application.TreeSetSample06.executor": "Run",
+    "Application.TreeSetSample07.executor": "Run",
+    "Application.TreeSetSample08.executor": "Run",
+    "Application.TreeSetSample09.executor": "Run",
+    "Application.TreeSetSample10.executor": "Run",
+    "Application.TreeSetSample11.executor": "Run",
+    "Application.TreeSetSample12.executor": "Run",
+    "Application.WeakHashMapSample01.executor": "Run",
+    "Application.WeakHashMapSample02.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Utku/Documents/GitHub/Javaeducation/Collections",
-    "onboarding.tips.debug.path": "C:/Users/utii/Documents/GitHub/Javaeducation/Collections/src/Main.java",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.list_sample.arraylist_sample01.ArrayListSample01">
-    <configuration name="ArrayListSample01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayListSample01" />
->>>>>>> 02870ef7c85e4325a7bf59034945cf390e7b30c6
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="set_sample" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.EnumSetSample04">
+    <configuration name="EnumSetSample01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="set_sample.EnumSetSample01" />
       <module name="Collections" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree_map_sample.*" />
+          <option name="PATTERN" value="set_sample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeMapSample09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree_map_sample.TreeMapSample09" />
+    <configuration name="EnumSetSample02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="set_sample.EnumSetSample02" />
       <module name="Collections" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree_map_sample.*" />
+          <option name="PATTERN" value="set_sample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeMapSample10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree_map_sample.TreeMapSample10" />
+    <configuration name="EnumSetSample03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="set_sample.EnumSetSample03" />
       <module name="Collections" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree_map_sample.*" />
+          <option name="PATTERN" value="set_sample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeMapSample11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree_map_sample.TreeMapSample11" />
+    <configuration name="EnumSetSample04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="set_sample.EnumSetSample04" />
       <module name="Collections" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree_map_sample.*" />
+          <option name="PATTERN" value="set_sample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,38 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeMapSample12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree_map_sample.TreeMapSample12" />
+    <configuration name="EnumSetSample05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="set_sample.EnumSetSample05" />
       <module name="Collections" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree_map_sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HashMapSample01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="map_sample.HashMapSample01" />
-      <module name="Collections" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="map_sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="list_sample.arraylist_sample01.ArrayListSample01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="list_sample.arraylist_sample01.ArrayListSample01" />
-      <module name="Collections" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="list_sample.arraylist_sample01.*" />
+          <option name="PATTERN" value="set_sample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,28 +141,22 @@
     </configuration>
     <recent_temporary>
       <list>
-<<<<<<< HEAD
-        <item itemvalue="Application.TreeMapSample12" />
-        <item itemvalue="Application.TreeMapSample11" />
-        <item itemvalue="Application.TreeMapSample10" />
-        <item itemvalue="Application.TreeMapSample09" />
-        <item itemvalue="Application.TreeMapSample08" />
-=======
-        <item itemvalue="Application.list_sample.arraylist_sample01.ArrayListSample01" />
-        <item itemvalue="Application.HashMapSample01" />
-        <item itemvalue="Application.ArrayListSample01" />
->>>>>>> 02870ef7c85e4325a7bf59034945cf390e7b30c6
+        <item itemvalue="Application.EnumSetSample04" />
+        <item itemvalue="Application.EnumSetSample05" />
+        <item itemvalue="Application.EnumSetSample03" />
+        <item itemvalue="Application.EnumSetSample02" />
+        <item itemvalue="Application.EnumSetSample01" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="be73fec0-b4f2-4c58-9d07-2f9a0240323c" name="Changes" comment="" />
-      <created>1715291757323</created>
+      <changelist id="3200f296-e84a-4573-8e90-80cd1ef52d69" name="Changes" comment="" />
+      <created>1715589608142</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1715291757323</updated>
+      <updated>1715589608142</updated>
     </task>
     <servers />
   </component>
