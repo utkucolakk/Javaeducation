@@ -4,8 +4,9 @@ abstract class Sekil {
 
     public abstract double alanHesapla();
 
+
     public void yazdir() {
+
         System.out.println("bu bir şekildir");
     }
-
 }

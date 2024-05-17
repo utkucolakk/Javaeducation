@@ -1,6 +1,8 @@
 package abstraction_samples.abstraction_sample02;
 
-public class Dikdortgen extends Sekil{
+public class Dikdortgen extends Sekil {
+
+
 
     private double uzunluk;
 
@@ -14,6 +16,9 @@ public class Dikdortgen extends Sekil{
 
     @Override
     public double alanHesapla() {
-        return uzunluk * genislik   ;
+        return uzunluk * genislik;
+
+
     }
 }
+
