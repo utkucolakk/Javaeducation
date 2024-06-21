@@ -3,13 +3,10 @@ import java.sql.*;
 public class Select {
 
     public static void main(String[] args) {
-        String jdbcUrl = "jdbc:postgresql://localhost:5432/firstdb";
-        String username = "postgres";
-        String password = "123456";
-
-        try {
+        PostgreDbConnection dbConnection = new PostgreDbConnection();
+        try(Connection connection = dbConnection.getConnection();
+        ) {
             //veritabanı bağlantı oluşturma
-                Connection connection = DriverManager.getConnection(jdbcUrl, username, password);
 
                 // SELECT İşlemi
             String selectSQL = "SELECT * FROM customers";
