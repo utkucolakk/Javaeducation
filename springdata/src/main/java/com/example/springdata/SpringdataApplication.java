@@ -23,6 +23,7 @@ public class SpringdataApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
+		test();
 		//findAllEmployee();
 		//findEmployeeById();
 		updateEmployeeById();
@@ -60,6 +61,12 @@ public class SpringdataApplication implements CommandLineRunner {
 		employee.setAge(29);
 		employeeRepository.save(employee);
 
+	}
+
+	public void test() {
+		List<Employee> employeeList = employeeRepository.findEmployeeByFirstnameAndSurname("c", "b");
+		//List<Employee> asd = employeeRepository.findEmployeeByFirstnameOrAddressAndAge("c", "b", 20);
+		System.out.println(employeeList.toString());
 	}
 
 
