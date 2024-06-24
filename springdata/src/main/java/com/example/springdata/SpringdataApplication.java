@@ -3,6 +3,7 @@ package com.example.springdata;
 import ch.qos.logback.core.model.conditional.ElseModel;
 import com.example.springdata.model.Employee;
 import com.example.springdata.repository.EmployeeRepository;
+import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -12,6 +13,7 @@ import java.util.List;
 import java.util.Optional;
 
 @SpringBootApplication
+@Transactional // ben bunu ekledim çünkü tek bir işlemde birden fazla veritabanı işlemi yaptığında içlerinden en az 1 tanesi hata alırsa diğer işlemleri de iptal etmeye yarıyor. Ek olarak DELETE UPDATE gibi kendi sorgularım(JPQL) de gerekli.
 public class SpringdataApplication implements CommandLineRunner {
 
 	@Autowired
@@ -23,16 +25,23 @@ public class SpringdataApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		test();
+		//test();
 		//findAllEmployee();
 		//findEmployeeById();
-		updateEmployeeById();
+		//updateEmployeeById();
 		/*Employee employee = new Employee();
 		employee.setAddress("ankara etimesgut");
 		employee.setSurname("ronaldo");
 		employee.setFirstname("cristiano");
 		employee.setAge(29);
 		employeeRepository.save(employee);*/
+		//deleteEmployeeById(302L);
+		//findAllEmployeeThenDelete();
+		//findEmployeeListByFirstnameAndSurname();
+		//deleteEmployeeByIdJPQL();
+		//updateEmployeeByIdNative();
+		getAllEmployeeNative();
+
 
 	}
 
@@ -44,7 +53,7 @@ public class SpringdataApplication implements CommandLineRunner {
 		employeeList.forEach(System.out::println);
 	}
 	public void findEmployeeById() {
-		Optional<Employee> employee = employeeRepository.findById(1L);
+		Optional<Employee> employee = employeeRepository.findById(152L);
 		//employee.ifPresent(System.out::println);
 		Employee e = employee.orElse(new Employee());
 		//Employee e = employee.orElse(null);
@@ -54,7 +63,7 @@ public class SpringdataApplication implements CommandLineRunner {
 
 	public void updateEmployeeById() {
 		Employee employee = new Employee();
-		employee.setEmployeeId(102L);
+		employee.setEmployeeId(152L);
 		employee.setAddress("ankara cankaya");
 		employee.setSurname("ronaldo11");
 		employee.setFirstname("cristiano");
@@ -69,5 +78,32 @@ public class SpringdataApplication implements CommandLineRunner {
 		System.out.println(employeeList.toString());
 	}
 
+	public void deleteEmployeeById(Long id) {
+		employeeRepository.deleteById(id);
+	}
 
+	public void findAllEmployeeThenDelete() {
+		List<Employee> employeeList = employeeRepository.findAll();
+		employeeList.stream().filter(e -> e.getEmployeeId().equals(252L)).forEach(e -> employeeRepository.delete(e));
+
+	}
+
+	public void findEmployeeListByFirstnameAndSurname() {
+		List<Employee> employeeList =employeeRepository.findEmployeeByFirstnameAndSurname("bb", "aa");
+		employeeList.forEach(System.out::println);
+	}
+
+	public void deleteEmployeeByIdJPQL() {
+		employeeRepository.deleteEmployeeById(152L);
+
+	}
+
+	public void updateEmployeeByIdNative() {
+		employeeRepository.updateAddressForEmployee("abc",202L);
+	}
+
+	public void getAllEmployeeNative() {
+		List<Employee> employeeList = employeeRepository.getAllEmployeeList();
+		employeeList.forEach(System.out::println);
+	}
 }
