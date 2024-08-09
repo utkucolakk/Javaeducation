@@ -2,12 +2,12 @@ package com.example.crud.service;
 
 import com.example.crud.model.Employee;
 import com.example.crud.repository.EmployeeRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
+import java.time.LocalDate;
+import java.time.Period;
 import java.util.List;
 import java.util.Optional;
-
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 @Service
 public class EmployeeService {
@@ -30,7 +30,7 @@ public class EmployeeService {
             employee1.setAge(employee1.getAge() * 2);
             return employee.get();
         }else {
-            throw new RuntimeException("No employee for " + id);
+            throw new RuntimeException("No employee for id: " + id);
         }
     }
 
@@ -46,9 +46,13 @@ public class EmployeeService {
         return employeeRepository.save(employee);
     }
 
-
-
     public int sum(int number1, int number2) {
-        return number1 + number1;
+        return number1 + number2;
     }
+
+    public int calculateAge(LocalDate playerBirthDate) {
+        LocalDate localDate = LocalDate.now();
+        return Period.between(playerBirthDate, localDate).getYears();
+    }
+
 }
