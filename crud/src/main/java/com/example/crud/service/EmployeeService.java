@@ -26,6 +26,8 @@ public class EmployeeService {
     public Employee findEmployeeById(Long id) {
         Optional<Employee> employee = employeeRepository.findById(id);
         if(employee.isPresent()) {
+            Employee employee1 = employee.get();
+            employee1.setAge(employee1.getAge() * 2);
             return employee.get();
         }else {
             throw new RuntimeException("No employee for " + id);
@@ -42,5 +44,11 @@ public class EmployeeService {
 
     public Employee updateEmployee(Employee employee) {
         return employeeRepository.save(employee);
+    }
+
+
+
+    public int sum(int number1, int number2) {
+        return number1 + number1;
     }
 }
